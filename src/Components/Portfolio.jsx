@@ -11,13 +11,13 @@ const Portfolio = () => {
         {
             id:1,
             src: Coschedule,
-            glink:"https://github.com/anirudha2097/fun-note-365",
+            glink:"https://github.com/Vivek-bhatt05/coschedule.com/tree/master/fun-note-365-main",
             nlink:"https://heroic-alfajores-0820ff.netlify.app/"
         },
         {
             id:2,
             src: Dice,
-            glink:"https://github.com/masai-course/vivek_fw20_0044/tree/master/unit-3/sprint-1/day-1/assignments",
+            glink:"https://github.com/Vivek-bhatt05/Dice-game",
             nlink:"https://papaya-crumble-3de9b5.netlify.app/"
         },
         {
@@ -29,7 +29,7 @@ const Portfolio = () => {
         {
             id:4,
             src: weather,
-            glink:"https://github.com/anirudha2097/fun-note-365",
+            glink:"https://github.com/Vivek-bhatt05/Weather",
             nlink:"https://lustrous-shortbread-7ea63b.netlify.app/"
         }
     ]
@@ -38,7 +38,7 @@ const Portfolio = () => {
     <div name='portfolio' className='bg-gradient-to-b from-black to-gray-800 w-full  text-white md:h-screen '>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
                 <p className='py-6'>Check out some of my work right here</p>
             </div>
 

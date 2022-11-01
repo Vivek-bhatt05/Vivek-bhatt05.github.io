@@ -8,23 +8,28 @@ const Navbar = () => {
   const links=[
     {
       id:1,
-      link:'home'
+      link:'home',
+      title:'home'
     },
     {
       id:2,
-      link:'about'
+      link:'about',
+      title:'about'
     },
     {
       id:3,
-      link:'portfolio'
+      link:'portfolio',
+      title:'projects'
     },
     {
       id:4,
-      link:'experience'
+      link:'experience',
+      title:'skills'
     },
     {
       id:5,
-      link:'contact'
+      link:'contact',
+      title:'contact'
     },
   ];
 
@@ -39,10 +44,10 @@ const Navbar = () => {
 
     <ul className='hidden sm:flex'>
 
-    {links.map(({id,link})=>( 
+    {links.map(({id,link,title})=>( 
     <li key={id} className='px-3 cursor-pointer font-medium capitalize text-gray-500 hover:scale-125 duration-200'>
       <Link to={link} smooth duration={500}>
-      {link}
+      {title}
       </Link>
       </li>))}
       </ul>
