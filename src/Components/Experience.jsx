@@ -70,7 +70,7 @@ const Experience = () => {
                 <p className='py-6'> These are the technologies i have worked with</p>
             </div>
 
-          <div className='w-full grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0'>
+          <div className='w-full grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0 text-center'>
             {techs.map(({id,src,title,style})=>(
             <div key={id} className={`shadow-md shadow-gray-600 rounded-lg ${style}`}>
             <img src={src} alt="" className='rounded-md duration-500 mx-auto hover:scale-105' />

@@ -7,7 +7,7 @@ const About = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
-        <p className='mt-20 text-2xl'>An independent and self-motivated person, with proven and experienced Frontend Development Skills. Looking to secure a challenging position in a reputable company to explore a problem solving environment and expand my knowledge.
+        <p className='mt-20 text-2xl'>My name is Vivek Bhatt I am an independent and self-motivated person, with proven and experienced Frontend Development Skills. Looking to secure a challenging position in a reputable company to explore a problem solving environment and expand my knowledge.
         </p>
         <br />
         <p className='text-2xl'>
