@@ -50,6 +50,9 @@ const Navbar = () => {
       {title}
       </Link>
       </li>))}
+      <a href="./Vivek_Bhatt_Resume.pdf" className=' flex justify-between items-center w-full px-3 cursor-pointer font-medium capitalize text-gray-500 hover:scale-125 duration-200' download target="_blank" rel='noreferrer'>
+                    Resume
+                </a>
       </ul>
 
       <div onClick={()=>setNav(!nav)} className='cursor-pointer pr-3 z-10 text-gray-500 sm:hidden'>
@@ -64,6 +67,9 @@ const Navbar = () => {
          {title}
       </Link>
        </li>))}
+       <a href="./Vivek_Bhatt_Resume.pdf" className='text-4xl px-4 py-4 cursor-pointer capitalize text-gray-400 ' download target="_blank" rel='noreferrer'>
+                    Resume
+                </a>
      </ul>
 )}
 
