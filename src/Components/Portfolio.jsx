@@ -12,25 +12,29 @@ const Portfolio = () => {
             id:1,
             src: Coschedule,
             glink:"https://github.com/Vivek-bhatt05/coschedule.com/tree/master/fun-note-365-main",
-            nlink:"https://heroic-alfajores-0820ff.netlify.app/"
+            nlink:"https://heroic-alfajores-0820ff.netlify.app/",
+            detail:"This is a clone of Coschedule website, it helps us organise our days accordingly and save out time and help us in time management."
         },
         {
             id:2,
             src: Dice,
             glink:"https://github.com/Vivek-bhatt05/Dice-game",
-            nlink:"https://papaya-crumble-3de9b5.netlify.app/"
+            nlink:"https://papaya-crumble-3de9b5.netlify.app/",
+            detail:"A dice game which helps three players to compete and decide the winner."
         },
         {
             id:3,
             src: Fiverr,
             glink:"https://github.com/Vivek-bhatt05/green-office-8741",
-            nlink:"https://rainbow-mousse-e54d86.netlify.app/"
+            nlink:"https://rainbow-mousse-e54d86.netlify.app/",
+            detail:"This is a clone of fiver website which is a site for freelancers which helps them to get projects from the people who needs to get there work done."
         },
         {
             id:4,
             src: weather,
             glink:"https://github.com/Vivek-bhatt05/Weather",
-            nlink:"https://lustrous-shortbread-7ea63b.netlify.app/"
+            nlink:"https://lustrous-shortbread-7ea63b.netlify.app/",
+            detail:"Weather app which helps us know the location and weather of the person who first opens it and can search for the weather of any place he wants."
         }
     ]
 
@@ -42,10 +46,11 @@ const Portfolio = () => {
                 <p className='py-6'>Check out some of my work right here</p>
             </div>
 
-          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-            {portfolios.map(({id,src,nlink,glink})=>(
+          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 text-center'>
+            {portfolios.map(({id,src,nlink,glink,detail})=>(
             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={src} alt="" className='rounded-md duration-500 hover:scale-105' />
+            <div className='mt-2'>{detail}</div>
             <div className='flex justify-center items-center'>
             <a href={nlink} target="_blank" rel="noreferrer">
                 <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</button>
