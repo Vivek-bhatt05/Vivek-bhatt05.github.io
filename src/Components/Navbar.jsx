@@ -41,7 +41,7 @@ const Navbar = () => {
     <div>
       <h1 className="font-signature text-4xl">Vivek</h1>
     </div>
-
+    <div className='w-300 pr-32'>
     <ul className='hidden sm:flex'>
 
     {links.map(({id,link,title})=>( 
@@ -54,6 +54,7 @@ const Navbar = () => {
                     Resume
                 </a>
       </ul>
+      </div>
 
       <div onClick={()=>setNav(!nav)} className='cursor-pointer pr-3 z-10 text-gray-500 sm:hidden'>
         {nav? <FaTimes size={30} /> : <FaBars size={30} />}

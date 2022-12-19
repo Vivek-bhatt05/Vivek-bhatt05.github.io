@@ -5,7 +5,6 @@ import Github from './Components/Githubb';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Portfolio from './Components/Portfolio';
-import SocialLink from './Components/SocialLink';
 
 function App() {
   return (
@@ -17,8 +16,6 @@ function App() {
       <Experience />
       <Github />
       <Contact />
-
-      <SocialLink />
     </div>
   );
 }
