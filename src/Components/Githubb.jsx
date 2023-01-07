@@ -1,4 +1,5 @@
 import React from 'react'
+import GitHubCalendar from 'react-github-calendar'
 
 const Github = () => {
   return (
@@ -23,12 +24,7 @@ const Github = () => {
         <h4 className="mb-0" style={{textAlign:"center", color:"white"}}>
           Vivek Bhatt's contribution calendar
         </h4>
-        <img
-          src="https://ghchart.rshah.org/Vivek-bhatt05"
-          alt="Vivek"
-          style={{width:"100%" ,height:"auto", marginTop:"5vh", color:"red"}}
-        />
-       
+        <GitHubCalendar username="Vivek-bhatt05	" />
       </div>
     </div>
   </div>
