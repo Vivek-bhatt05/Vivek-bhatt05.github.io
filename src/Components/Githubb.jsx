@@ -3,7 +3,7 @@ import GitHubCalendar from 'react-github-calendar'
 
 const Github = () => {
   return (
-  <section className="github-st" id="github-" style={{marginTop:'40px',paddingLeft:'40px', backgroundColor:'black',color:'white'}}>
+  <section className="github-st" id="github-" style={{marginTop:'60px',paddingLeft:'40px', backgroundColor:'black',color:'white'}}>
 <div id="github-stats">
   <div className="container">
     <h1 style={{fontSize:'30px'}}>GitHub Status</h1>
@@ -21,7 +21,7 @@ const Github = () => {
         />
       </div>
       <div className="github-stat">
-        <h4 className="mb-0" style={{textAlign:"center", color:"white"}}>
+        <h4 className="mb-0" style={{textAlign:"center",marginBottom:"20px", color:"white"}}>
           Vivek Bhatt's contribution calendar
         </h4>
         <GitHubCalendar username="Vivek-bhatt05	" />
