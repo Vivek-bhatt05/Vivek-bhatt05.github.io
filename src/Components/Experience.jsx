@@ -2,11 +2,11 @@ import React from 'react';
 import html from '../assests/html.png';
 import css from '../assests/css.png';
 import javascript from '../assests/javascript.png';
-import chakra from '../assests/chakra.png';
 import react from '../assests/react.png';
 import github from '../assests/github.png';
 import redux from '../assests/redux.png';
-import tailwind from '../assests/tailwind.png';
+import nodeExpress from '../assests/nodeExpress.png'
+import mongoDB from '../assests/mdb.webp'
 
 
 const Experience = () => {
@@ -44,8 +44,8 @@ const Experience = () => {
         },
         {
             id:6,
-            src: chakra,
-            title: 'Chakra UI',
+            src: nodeExpress,
+            title: 'Node js & Express js',
             style: 'shadow-teal-500'
         },
         {
@@ -56,10 +56,10 @@ const Experience = () => {
         },
         {
             id:8,
-            src: tailwind,
-            title: 'TailWind',
+            src: mongoDB,
+            title: 'Mongo DB',
             style: 'shadow-sky-400'
-        },
+        }
     ]
 
   return (
