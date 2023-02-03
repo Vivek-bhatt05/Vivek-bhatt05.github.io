@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
           ))}
           <a
-            href="./Vivek_Bhatt_Resume.pdf"
+            href="./fw20_0044_Vivek_Bhatt_Resume.pdf"
             className=" flex justify-between items-center w-full px-3 cursor-pointer font-medium capitalize text-gray-500 hover:scale-125 duration-200"
             download
             target="_blank"
@@ -91,7 +91,7 @@ const Navbar = () => {
             </li>
           ))}
           <a
-            href="./Vivek_Bhatt_Resume.pdf"
+            href="./fw20_0044_Vivek_Bhatt_Resume.pdf"
             className="text-4xl px-4 py-4 cursor-pointer capitalize text-gray-400 "
             download
             target="_blank"

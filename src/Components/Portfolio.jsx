@@ -1,8 +1,8 @@
 import React from 'react';
 import Coschedule from '../assests/Portfolio/Coschedule.png';
-import Fiverr from '../assests/Portfolio/Fiverr.png';
-import weather from '../assests/Portfolio/weather.jpeg';
+import MG from '../assests/Portfolio/5mg.png';
 import naukri from '../assests/Portfolio/naukri.png';
+import BFC from "../assests/Portfolio/Bfc.png"
 
 
 const Portfolio = () => {
@@ -28,21 +28,21 @@ const Portfolio = () => {
         },
         {
             id:3,
-            src: Fiverr,
-            title:"Fiverr.com",
-            glink:"https://github.com/Vivek-bhatt05/green-office-8741",
-            nlink:"https://rainbow-mousse-e54d86.netlify.app/",
-            detail:"This is a clone of fiver website which is a site for freelancers which helps them to get projects from the people who needs to get there work done.",
-            tech:"Tech Stack: HTML | CSS | JavaScript"
+            src: BFC,
+            title:"BFC.com",
+            glink:"https://github.com/Vivek-bhatt05/flawless-trick-6809",
+            nlink:"https://bfc-tau.vercel.app/",
+            detail:"This is a website which is used for ordering food online and also it has various feature for customer facility and also is responsive for mobiles.",
+            tech:"Tech Stack: HTML | CSS | JavaScript | React | Redux "
         },
         {
             id:4,
-            src: weather,
-            title:"Weather.com",
-            glink:"https://github.com/Vivek-bhatt05/Weather",
-            nlink:"https://lustrous-shortbread-7ea63b.netlify.app/",
-            detail:"Weather app which helps us know the location and weather of the person who first opens it and can search for the weather of any place he wants.",
-            tech:"Tech Stack: HTML | CSS | JavaScript"
+            src: MG,
+            title:"5mg.com",
+            glink:"https://github.com/Vivek-bhatt05/brief-toes-9591",
+            nlink:"https://5mg.vercel.app/",
+            detail:"This is a website which is used for ordering medicines online and also it has details about ayurveda where we can get knowledge.",
+            tech:"Tech Stack: HTML | CSS | JavaScript | React | Node.JS | Express.JS | MongoDB"
         }
     ]
 
