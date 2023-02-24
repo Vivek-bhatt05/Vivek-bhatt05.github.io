@@ -3,10 +3,10 @@ import GitHubCalendar from 'react-github-calendar'
 
 const Github = () => {
   return (
-  <section className="github-st" id="github-" style={{marginTop:'60px',paddingLeft:'40px', backgroundColor:'black',color:'white'}}>
+  <section className="github-st" id="github-" style={{marginTop:'70px',paddingLeft:'40px', backgroundColor:'black',color:'white'}}>
 <div id="github-stats">
   <div className="container">
-    <h1 style={{fontSize:'30px'}}>GitHub Status</h1>
+    <h1 style={{fontSize:'30px',marginTop:"30px",color:"black"}}>GitHub Status</h1>
     <div className="github-stats-list">
       <div className="github-stat">
         <img
